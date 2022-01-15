@@ -50,6 +50,7 @@ function displayEmployee(kid){
 			let workdayBox = document.createElement("div");
 			workdayBox.classList.add("workdayBox");
 				let monday = document.createElement("div");
+				monday.innerText= "mo";
 				monday.classList.add("workday");
 				if (kid["monday"] != 0){
 					monday.classList.add("workdayPresent");
@@ -59,6 +60,7 @@ function displayEmployee(kid){
 
 				let tuesday = document.createElement("div");
 				tuesday.classList.add("workday");
+				tuesday.innerText = "tu";
 				if (kid["tuesday"] != 0){
 					tuesday.classList.add("workdayPresent");
 				}
@@ -66,6 +68,7 @@ function displayEmployee(kid){
 
 				let wednesday = document.createElement("div");
 				wednesday.classList.add("workday");
+				wednesday.innerText = "we";
 				if (kid["wednesday"] != 0){
 					wednesday.classList.add("workdayPresent");
 				}
@@ -73,6 +76,7 @@ function displayEmployee(kid){
 
 				let thursday = document.createElement("div");
 				thursday.classList.add("workday");
+				thursday.innerText = "th"
 				if (kid["thursday"] != 0){
 					thursday.classList.add("workdayPresent");
 				}
@@ -80,6 +84,7 @@ function displayEmployee(kid){
 
 				let friday = document.createElement("div");
 				friday.classList.add("workday");
+				friday.innerText = "fr";
 				if (kid["friday"] != 0){
 					friday.classList.add("workdayPresent");
 				}

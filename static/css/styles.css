@@ -12,9 +12,11 @@ html {
 }
 
 .emloyeeBox {
-	font-size: 3em;
+	font-size: 1em;
 	margin: 5rem;
 	background: #222222;
+	justify-content: center;
+	text-align: center;
 }
 
 .workdayBox {
@@ -22,9 +24,9 @@ html {
 }
 
 .workday {
-	height: 3rem;
-	width: 3rem;
-	background-color: #fff;
+	height: 2rem;
+	width: 2rem;
+	background-color: #555;
 	margin: 1rem;
 }
 
