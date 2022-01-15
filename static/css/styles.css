@@ -1,1 +1,29 @@
 /*Put CSS here*/
+
+html {
+	background-color: #000;
+	color: #FFF;
+}
+
+
+#allEmployees {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.emloyeeBox {
+	font-size: 3em;
+	margin: 5rem;
+	background: #222222;
+}
+
+.workdayBox {
+	display: flex;
+}
+
+.workday {
+	height: 3rem;
+	width: 3rem;
+	background-color: #fff;
+	margin: 1rem;
+}

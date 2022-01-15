@@ -3,7 +3,7 @@
 from flask import Flask, render_template
 from flask_restful import Api
 from db import db
-
+from resources.employee import Employee, Employees
 
 
 app = Flask(__name__)
@@ -18,15 +18,14 @@ def create_table():
     
 @app.route('/', methods=['GET'])
 def home():
-    return_dict = 
+
     return render_template("index.html")
 
     
-'''
-api.add_resource(Kid, '/kid/<string:identifier>')
-api.add_resource(Kids, '/kids')
-api.add_resource(Present, '/present/<int:_id>')
-api.add_resource(Presents, '/presents')'''
+
+api.add_resource(Employee, '/employee/<string:param>')
+api.add_resource(Employees, '/employees')
+
     
 if __name__ == '__main__':
     db.init_app(app)
